@@ -15,7 +15,8 @@ Analyse flows from file with Hubble UI:
 > cat flows.json | hubble observe
 
 Example flows view
-![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/5ca9f3ec-cd02-4871-8399-10aed84d9798)
+![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/fac52482-00a4-434b-bafa-76f96ee6e89d)
+
 
 
 
