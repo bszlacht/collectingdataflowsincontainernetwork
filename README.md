@@ -1,4 +1,4 @@
-# Collecting data flow information from container network
+![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/47fca728-2b43-498a-998c-e25109fada4d)# Collecting data flow information from container network
 
 The general idea behind this project is to collect data about flow of TCP inside kubernetes container. We will use [Hubble](https://github.com/cilium/hubble) to monitor packets. Our idea for the moment is:
 
@@ -29,10 +29,23 @@ minikube start --cni=cilium --memory=4096
 kubectl apply -f socks/release/kubernetes/manifests.yaml
 ```
 
-After that add redirect 12000 -> 80
+To open Hubble UI add redirect 12000 -> 80
 
 ```
 kubectl port-forward -n kube-system svc/hubble-ui --address 0.0.0.0 --address :: 12000:80
 ```
 
-Open localhost:12000 in your browser
+and open localhost:12000 in your browser
+You will be presented with smth similar to
+![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/289f7477-3105-4f23-b66b-bb0d95874ab3)
+
+
+To open online boituqe by itself:
+```
+kubectl port-forward -n default deployment/frontend-v1 8080:8080
+```
+and open localhost:8080. You will see smth like that
+![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/f66e7094-c9e9-4781-a4bd-7121595a2035)
+
+
+
