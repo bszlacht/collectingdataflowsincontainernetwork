@@ -18,3 +18,21 @@ Analyse flows from file with Hubble UI:
 
 Example flows view
 ![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/fac52482-00a4-434b-bafa-76f96ee6e89d)
+
+# How to run
+
+To start minikube with cilium and online botique app:
+
+```
+minikube start --network-plugin=cni --memory=4096
+minikube start --cni=cilium --memory=4096
+kubectl apply -f socks/release/kubernetes/manifests.yaml
+```
+
+After that add redirect 12000 -> 80
+
+```
+kubectl port-forward -n kube-system svc/hubble-ui --address 0.0.0.0 --address :: 12000:80
+```
+
+Open localhost:12000 in your browser

@@ -1,0 +1,11 @@
+# myconfig.yaml
+metrics_name: guide
+metrics:
+  - name: cpu_usage
+    type: gauge
+    category: top
+    gadget: ebpf
+    labels:
+      - namespace
+      - pod
+      - container
