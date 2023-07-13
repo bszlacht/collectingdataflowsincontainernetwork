@@ -1,0 +1,5449 @@
+[
+    {
+        "node": "minikube",
+        "progid": 3,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 4,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 5,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 6,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 7,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 8,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 13,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 14,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 3068,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3069,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3507,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3512,
+        "type": "SchedCLS",
+        "mapMemory": 23560192,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3513,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3514,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3515,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3516,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3517,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 2875,
+        "totalRunCount": 13,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3518,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 489375,
+        "totalRunCount": 305,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3519,
+        "type": "CGroupSockAddr",
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3520,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 76921,
+        "totalRunCount": 94,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3521,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 1572159,
+        "totalRunCount": 560,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3522,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 913987,
+        "totalRunCount": 705,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3523,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 236516,
+        "totalRunCount": 456,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3524,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 126429,
+        "totalRunCount": 86,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3525,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3531,
+        "type": "SchedCLS",
+        "totalRuntime": 9261420,
+        "totalRunCount": 1767,
+        "mapMemory": 20754432,
+        "mapCount": 3
+    },
+    {
+        "node": "minikube",
+        "progid": 3532,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3533,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3534,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3535,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3536,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3537,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3538,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3539,
+        "type": "SchedCLS",
+        "totalRuntime": 116411,
+        "totalRunCount": 14,
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3540,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3541,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3542,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3543,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3544,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3545,
+        "type": "SchedCLS",
+        "totalRuntime": 1173161,
+        "totalRunCount": 573,
+        "mapMemory": 20754432,
+        "mapCount": 3
+    },
+    {
+        "node": "minikube",
+        "progid": 3547,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3548,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3549,
+        "type": "SchedCLS",
+        "mapMemory": 45056000,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3550,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3551,
+        "type": "SchedCLS",
+        "mapMemory": 37187584,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3552,
+        "type": "SchedCLS",
+        "mapMemory": 16707584,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3557,
+        "type": "SchedCLS",
+        "totalRuntime": 411679,
+        "totalRunCount": 465,
+        "mapMemory": 48758784,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3558,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3559,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3560,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    }
+]
+[
+    {
+        "node": "minikube",
+        "progid": 3599,
+        "type": "SchedCLS",
+        "currentRuntime": 1045646,
+        "currentRunCount": 198,
+        "cumulRuntime": 1045646,
+        "cumulRunCount": 198,
+        "totalRuntime": 25175357,
+        "totalRunCount": 5131,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.1045646,
+        "perCpuUsage": 0.017427433333333332
+    },
+    {
+        "node": "minikube",
+        "progid": 3859,
+        "type": "Tracing",
+        "name": "ig_top_ebpf_it",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 386460,
+        "currentRunCount": 3549,
+        "cumulRuntime": 386460,
+        "cumulRunCount": 3549,
+        "totalRuntime": 386460,
+        "totalRunCount": 3549,
+        "mapMemory": 4096,
+        "mapCount": 1,
+        "totalCpuUsage": 0.038646,
+        "perCpuUsage": 0.006441
+    },
+    {
+        "node": "minikube",
+        "progid": 3619,
+        "type": "SchedCLS",
+        "currentRuntime": 267565,
+        "currentRunCount": 65,
+        "cumulRuntime": 267565,
+        "cumulRunCount": 65,
+        "totalRuntime": 7696745,
+        "totalRunCount": 2225,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0267565,
+        "perCpuUsage": 0.004459416666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3717,
+        "type": "TracePoint",
+        "name": "ig_execve_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 252079,
+        "currentRunCount": 36,
+        "cumulRuntime": 252079,
+        "cumulRunCount": 36,
+        "totalRuntime": 11623324,
+        "totalRunCount": 1717,
+        "mapMemory": 1986560,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0252079,
+        "perCpuUsage": 0.004201316666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3651,
+        "type": "SchedCLS",
+        "currentRuntime": 188405,
+        "currentRunCount": 52,
+        "cumulRuntime": 188405,
+        "cumulRunCount": 52,
+        "totalRuntime": 4421723,
+        "totalRunCount": 1068,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0188405,
+        "perCpuUsage": 0.0031400833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3643,
+        "type": "SchedCLS",
+        "currentRuntime": 161764,
+        "currentRunCount": 22,
+        "cumulRuntime": 161764,
+        "cumulRunCount": 22,
+        "totalRuntime": 4007845,
+        "totalRunCount": 447,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0161764,
+        "perCpuUsage": 0.0026960666666666668
+    },
+    {
+        "node": "minikube",
+        "progid": 3635,
+        "type": "SchedCLS",
+        "currentRuntime": 121707,
+        "currentRunCount": 20,
+        "cumulRuntime": 121707,
+        "cumulRunCount": 20,
+        "totalRuntime": 4148714,
+        "totalRunCount": 645,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0121707,
+        "perCpuUsage": 0.00202845
+    },
+    {
+        "node": "minikube",
+        "progid": 3720,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 120925,
+        "currentRunCount": 56,
+        "cumulRuntime": 120925,
+        "cumulRunCount": 56,
+        "totalRuntime": 4573849,
+        "totalRunCount": 1958,
+        "mapMemory": 2977792,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0120925,
+        "perCpuUsage": 0.0020154166666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3563,
+        "type": "SchedCLS",
+        "currentRuntime": 105150,
+        "currentRunCount": 19,
+        "cumulRuntime": 105150,
+        "cumulRunCount": 19,
+        "totalRuntime": 6732741,
+        "totalRunCount": 1524,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.010515,
+        "perCpuUsage": 0.0017525
+    },
+    {
+        "node": "minikube",
+        "progid": 3595,
+        "type": "SchedCLS",
+        "currentRuntime": 103615,
+        "currentRunCount": 15,
+        "cumulRuntime": 103615,
+        "cumulRunCount": 15,
+        "totalRuntime": 3730158,
+        "totalRunCount": 555,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0103615,
+        "perCpuUsage": 0.0017269166666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3531,
+        "type": "SchedCLS",
+        "currentRuntime": 95432,
+        "currentRunCount": 18,
+        "cumulRuntime": 95432,
+        "cumulRunCount": 18,
+        "totalRuntime": 9356852,
+        "totalRunCount": 1785,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0095432,
+        "perCpuUsage": 0.0015905333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3718,
+        "type": "TracePoint",
+        "name": "ig_execve_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 65338,
+        "currentRunCount": 46,
+        "cumulRuntime": 65338,
+        "cumulRunCount": 46,
+        "totalRuntime": 2620538,
+        "totalRunCount": 1953,
+        "mapMemory": 1970176,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0065338,
+        "perCpuUsage": 0.0010889666666666668
+    },
+    {
+        "node": "minikube",
+        "progid": 3719,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 53292,
+        "currentRunCount": 56,
+        "cumulRuntime": 53292,
+        "cumulRunCount": 56,
+        "totalRuntime": 1911214,
+        "totalRunCount": 1958,
+        "mapMemory": 20480,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0053292,
+        "perCpuUsage": 0.0008882
+    },
+    {
+        "node": "minikube",
+        "progid": 3683,
+        "type": "SchedCLS",
+        "currentRuntime": 52416,
+        "currentRunCount": 10,
+        "cumulRuntime": 52416,
+        "cumulRunCount": 10,
+        "totalRuntime": 974869,
+        "totalRunCount": 178,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0052416,
+        "perCpuUsage": 0.0008736
+    },
+    {
+        "node": "minikube",
+        "progid": 3691,
+        "type": "SchedCLS",
+        "currentRuntime": 42306,
+        "currentRunCount": 5,
+        "cumulRuntime": 42306,
+        "cumulRunCount": 5,
+        "totalRuntime": 1584105,
+        "totalRunCount": 219,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0042306,
+        "perCpuUsage": 0.0007051000000000001
+    },
+    {
+        "node": "minikube",
+        "progid": 3521,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 30447,
+        "currentRunCount": 12,
+        "cumulRuntime": 30447,
+        "cumulRunCount": 12,
+        "totalRuntime": 1602606,
+        "totalRunCount": 572,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0030447,
+        "perCpuUsage": 0.00050745
+    },
+    {
+        "node": "minikube",
+        "progid": 3522,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 30071,
+        "currentRunCount": 19,
+        "cumulRuntime": 30071,
+        "cumulRunCount": 19,
+        "totalRuntime": 944058,
+        "totalRunCount": 724,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0030071,
+        "perCpuUsage": 0.0005011833333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3728,
+        "type": "SchedCLS",
+        "currentRuntime": 17882,
+        "currentRunCount": 2,
+        "cumulRuntime": 17882,
+        "cumulRunCount": 2,
+        "totalRuntime": 427940,
+        "totalRunCount": 40,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0017882,
+        "perCpuUsage": 0.00029803333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3545,
+        "type": "SchedCLS",
+        "currentRuntime": 10489,
+        "currentRunCount": 6,
+        "cumulRuntime": 10489,
+        "cumulRunCount": 6,
+        "totalRuntime": 1183650,
+        "totalRunCount": 579,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0010489,
+        "perCpuUsage": 0.00017481666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3699,
+        "type": "SchedCLS",
+        "currentRuntime": 7954,
+        "currentRunCount": 1,
+        "cumulRuntime": 7954,
+        "cumulRunCount": 1,
+        "totalRuntime": 303427,
+        "totalRunCount": 24,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0007954,
+        "perCpuUsage": 0.00013256666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3518,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 7835,
+        "currentRunCount": 5,
+        "cumulRuntime": 7835,
+        "cumulRunCount": 5,
+        "totalRuntime": 497210,
+        "totalRunCount": 310,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0007835,
+        "perCpuUsage": 0.00013058333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3557,
+        "type": "SchedCLS",
+        "currentRuntime": 4658,
+        "currentRunCount": 5,
+        "cumulRuntime": 4658,
+        "cumulRunCount": 5,
+        "totalRuntime": 416337,
+        "totalRunCount": 470,
+        "mapMemory": 48758784,
+        "mapCount": 9,
+        "totalCpuUsage": 0.0004658,
+        "perCpuUsage": 0.00007763333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3524,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 1432,
+        "currentRunCount": 1,
+        "cumulRuntime": 1432,
+        "cumulRunCount": 1,
+        "totalRuntime": 127861,
+        "totalRunCount": 87,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0001432,
+        "perCpuUsage": 0.00002386666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3523,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 1393,
+        "currentRunCount": 1,
+        "cumulRuntime": 1393,
+        "cumulRunCount": 1,
+        "totalRuntime": 237909,
+        "totalRunCount": 457,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0001393,
+        "perCpuUsage": 0.000023216666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 4,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 5,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 6,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 7,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 8,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 13,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 14,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 3068,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3069,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3507,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3512,
+        "type": "SchedCLS",
+        "mapMemory": 23560192,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3513,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3514,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3515,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3516,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3517,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 2875,
+        "totalRunCount": 13,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3519,
+        "type": "CGroupSockAddr",
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3520,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 76921,
+        "totalRunCount": 94,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3525,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3532,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3533,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3534,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3535,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3536,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3537,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    }
+]
+[
+    {
+        "node": "minikube",
+        "progid": 3859,
+        "type": "Tracing",
+        "name": "ig_top_ebpf_it",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 370596,
+        "currentRunCount": 3528,
+        "cumulRuntime": 757056,
+        "cumulRunCount": 7077,
+        "totalRuntime": 757056,
+        "totalRunCount": 7077,
+        "mapMemory": 4096,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0370596,
+        "perCpuUsage": 0.0061766
+    },
+    {
+        "node": "minikube",
+        "progid": 3599,
+        "type": "SchedCLS",
+        "currentRuntime": 221680,
+        "currentRunCount": 39,
+        "cumulRuntime": 1267326,
+        "cumulRunCount": 237,
+        "totalRuntime": 25397037,
+        "totalRunCount": 5170,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.022168,
+        "perCpuUsage": 0.003694666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3531,
+        "type": "SchedCLS",
+        "currentRuntime": 209831,
+        "currentRunCount": 32,
+        "cumulRuntime": 305263,
+        "cumulRunCount": 50,
+        "totalRuntime": 9566683,
+        "totalRunCount": 1817,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0209831,
+        "perCpuUsage": 0.0034971833333333337
+    },
+    {
+        "node": "minikube",
+        "progid": 3717,
+        "type": "TracePoint",
+        "name": "ig_execve_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 160618,
+        "currentRunCount": 21,
+        "cumulRuntime": 412697,
+        "cumulRunCount": 57,
+        "totalRuntime": 11783942,
+        "totalRunCount": 1738,
+        "mapMemory": 1986560,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0160618,
+        "perCpuUsage": 0.002676966666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3563,
+        "type": "SchedCLS",
+        "currentRuntime": 111443,
+        "currentRunCount": 21,
+        "cumulRuntime": 216593,
+        "cumulRunCount": 40,
+        "totalRuntime": 6844184,
+        "totalRunCount": 1545,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0111443,
+        "perCpuUsage": 0.0018573833333333332
+    },
+    {
+        "node": "minikube",
+        "progid": 3720,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 86917,
+        "currentRunCount": 39,
+        "cumulRuntime": 207842,
+        "cumulRunCount": 95,
+        "totalRuntime": 4660766,
+        "totalRunCount": 1997,
+        "mapMemory": 2977792,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0086917,
+        "perCpuUsage": 0.0014486166666666668
+    },
+    {
+        "node": "minikube",
+        "progid": 3595,
+        "type": "SchedCLS",
+        "currentRuntime": 48057,
+        "currentRunCount": 5,
+        "cumulRuntime": 151672,
+        "cumulRunCount": 20,
+        "totalRuntime": 3778215,
+        "totalRunCount": 560,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0048057,
+        "perCpuUsage": 0.00080095
+    },
+    {
+        "node": "minikube",
+        "progid": 3619,
+        "type": "SchedCLS",
+        "currentRuntime": 41876,
+        "currentRunCount": 10,
+        "cumulRuntime": 309441,
+        "cumulRunCount": 75,
+        "totalRuntime": 7738621,
+        "totalRunCount": 2235,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0041876,
+        "perCpuUsage": 0.0006979333333333332
+    },
+    {
+        "node": "minikube",
+        "progid": 3718,
+        "type": "TracePoint",
+        "name": "ig_execve_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 37569,
+        "currentRunCount": 27,
+        "cumulRuntime": 102907,
+        "cumulRunCount": 73,
+        "totalRuntime": 2658107,
+        "totalRunCount": 1980,
+        "mapMemory": 1970176,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0037569,
+        "perCpuUsage": 0.00062615
+    },
+    {
+        "node": "minikube",
+        "progid": 3521,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 36076,
+        "currentRunCount": 11,
+        "cumulRuntime": 66523,
+        "cumulRunCount": 23,
+        "totalRuntime": 1638682,
+        "totalRunCount": 583,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0036076,
+        "perCpuUsage": 0.0006012666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3719,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 32662,
+        "currentRunCount": 39,
+        "cumulRuntime": 85954,
+        "cumulRunCount": 95,
+        "totalRuntime": 1943876,
+        "totalRunCount": 1997,
+        "mapMemory": 20480,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0032662,
+        "perCpuUsage": 0.0005443666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3643,
+        "type": "SchedCLS",
+        "currentRuntime": 29885,
+        "currentRunCount": 2,
+        "cumulRuntime": 191649,
+        "cumulRunCount": 24,
+        "totalRuntime": 4037730,
+        "totalRunCount": 449,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0029885,
+        "perCpuUsage": 0.0004980833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3651,
+        "type": "SchedCLS",
+        "currentRuntime": 29605,
+        "currentRunCount": 4,
+        "cumulRuntime": 218010,
+        "cumulRunCount": 56,
+        "totalRuntime": 4451328,
+        "totalRunCount": 1072,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0029605,
+        "perCpuUsage": 0.0004934166666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3635,
+        "type": "SchedCLS",
+        "currentRuntime": 26516,
+        "currentRunCount": 4,
+        "cumulRuntime": 148223,
+        "cumulRunCount": 24,
+        "totalRuntime": 4175230,
+        "totalRunCount": 649,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0026516,
+        "perCpuUsage": 0.00044193333333333336
+    },
+    {
+        "node": "minikube",
+        "progid": 3545,
+        "type": "SchedCLS",
+        "currentRuntime": 23260,
+        "currentRunCount": 12,
+        "cumulRuntime": 33749,
+        "cumulRunCount": 18,
+        "totalRuntime": 1206910,
+        "totalRunCount": 591,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.002326,
+        "perCpuUsage": 0.00038766666666666664
+    },
+    {
+        "node": "minikube",
+        "progid": 3683,
+        "type": "SchedCLS",
+        "currentRuntime": 22341,
+        "currentRunCount": 2,
+        "cumulRuntime": 74757,
+        "cumulRunCount": 12,
+        "totalRuntime": 997210,
+        "totalRunCount": 180,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0022341,
+        "perCpuUsage": 0.00037235
+    },
+    {
+        "node": "minikube",
+        "progid": 3728,
+        "type": "SchedCLS",
+        "currentRuntime": 20197,
+        "currentRunCount": 2,
+        "cumulRuntime": 38079,
+        "cumulRunCount": 4,
+        "totalRuntime": 448137,
+        "totalRunCount": 42,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0020197,
+        "perCpuUsage": 0.00033661666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3522,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 19415,
+        "currentRunCount": 12,
+        "cumulRuntime": 49486,
+        "cumulRunCount": 31,
+        "totalRuntime": 963473,
+        "totalRunCount": 736,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0019415,
+        "perCpuUsage": 0.00032358333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3518,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 15550,
+        "currentRunCount": 10,
+        "cumulRuntime": 23385,
+        "cumulRunCount": 15,
+        "totalRuntime": 512760,
+        "totalRunCount": 320,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.001555,
+        "perCpuUsage": 0.00025916666666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3699,
+        "type": "SchedCLS",
+        "currentRuntime": 10889,
+        "currentRunCount": 1,
+        "cumulRuntime": 18843,
+        "cumulRunCount": 2,
+        "totalRuntime": 314316,
+        "totalRunCount": 25,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0010889,
+        "perCpuUsage": 0.00018148333333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3557,
+        "type": "SchedCLS",
+        "currentRuntime": 8312,
+        "currentRunCount": 10,
+        "cumulRuntime": 12970,
+        "cumulRunCount": 15,
+        "totalRuntime": 424649,
+        "totalRunCount": 480,
+        "mapMemory": 48758784,
+        "mapCount": 9,
+        "totalCpuUsage": 0.0008312,
+        "perCpuUsage": 0.00013853333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3691,
+        "type": "SchedCLS",
+        "currentRuntime": 7493,
+        "currentRunCount": 1,
+        "cumulRuntime": 49799,
+        "cumulRunCount": 6,
+        "totalRuntime": 1591598,
+        "totalRunCount": 220,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0007493,
+        "perCpuUsage": 0.00012488333333333335
+    },
+    {
+        "node": "minikube",
+        "progid": 3,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 4,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 5,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 6,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 7,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 8,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 13,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 14,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 3068,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3069,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3507,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3512,
+        "type": "SchedCLS",
+        "mapMemory": 23560192,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3513,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3514,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3515,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3516,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3517,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 2875,
+        "totalRunCount": 13,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3519,
+        "type": "CGroupSockAddr",
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3520,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 76921,
+        "totalRunCount": 94,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3523,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 1393,
+        "cumulRunCount": 1,
+        "totalRuntime": 237909,
+        "totalRunCount": 457,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3524,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 1432,
+        "cumulRunCount": 1,
+        "totalRuntime": 127861,
+        "totalRunCount": 87,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3525,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3532,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3533,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3534,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3535,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3536,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3537,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    }
+]
+[
+    {
+        "node": "minikube",
+        "progid": 3859,
+        "type": "Tracing",
+        "name": "ig_top_ebpf_it",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 635302,
+        "currentRunCount": 3534,
+        "cumulRuntime": 1392358,
+        "cumulRunCount": 10611,
+        "totalRuntime": 1392358,
+        "totalRunCount": 10611,
+        "mapMemory": 4096,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0635302,
+        "perCpuUsage": 0.010588366666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3717,
+        "type": "TracePoint",
+        "name": "ig_execve_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 298096,
+        "currentRunCount": 50,
+        "cumulRuntime": 710793,
+        "cumulRunCount": 107,
+        "totalRuntime": 12082038,
+        "totalRunCount": 1788,
+        "mapMemory": 1986560,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0298096,
+        "perCpuUsage": 0.004968266666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3599,
+        "type": "SchedCLS",
+        "currentRuntime": 225706,
+        "currentRunCount": 48,
+        "cumulRuntime": 1493032,
+        "cumulRunCount": 285,
+        "totalRuntime": 25622743,
+        "totalRunCount": 5218,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0225706,
+        "perCpuUsage": 0.0037617666666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3563,
+        "type": "SchedCLS",
+        "currentRuntime": 161946,
+        "currentRunCount": 35,
+        "cumulRuntime": 378539,
+        "cumulRunCount": 75,
+        "totalRuntime": 7006130,
+        "totalRunCount": 1580,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0161946,
+        "perCpuUsage": 0.0026991
+    },
+    {
+        "node": "minikube",
+        "progid": 3720,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 112049,
+        "currentRunCount": 39,
+        "cumulRuntime": 319891,
+        "cumulRunCount": 134,
+        "totalRuntime": 4772815,
+        "totalRunCount": 2036,
+        "mapMemory": 2977792,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0112049,
+        "perCpuUsage": 0.0018674833333333335
+    },
+    {
+        "node": "minikube",
+        "progid": 3531,
+        "type": "SchedCLS",
+        "currentRuntime": 95933,
+        "currentRunCount": 27,
+        "cumulRuntime": 401196,
+        "cumulRunCount": 77,
+        "totalRuntime": 9662616,
+        "totalRunCount": 1844,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0095933,
+        "perCpuUsage": 0.0015988833333333335
+    },
+    {
+        "node": "minikube",
+        "progid": 3718,
+        "type": "TracePoint",
+        "name": "ig_execve_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 66650,
+        "currentRunCount": 56,
+        "cumulRuntime": 169557,
+        "cumulRunCount": 129,
+        "totalRuntime": 2724757,
+        "totalRunCount": 2036,
+        "mapMemory": 1970176,
+        "mapCount": 1,
+        "totalCpuUsage": 0.006665,
+        "perCpuUsage": 0.0011108333333333332
+    },
+    {
+        "node": "minikube",
+        "progid": 3619,
+        "type": "SchedCLS",
+        "currentRuntime": 62783,
+        "currentRunCount": 19,
+        "cumulRuntime": 372224,
+        "cumulRunCount": 94,
+        "totalRuntime": 7801404,
+        "totalRunCount": 2254,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0062783,
+        "perCpuUsage": 0.0010463833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3719,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 48336,
+        "currentRunCount": 39,
+        "cumulRuntime": 134290,
+        "cumulRunCount": 134,
+        "totalRuntime": 1992212,
+        "totalRunCount": 2036,
+        "mapMemory": 20480,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0048336,
+        "perCpuUsage": 0.0008056000000000001
+    },
+    {
+        "node": "minikube",
+        "progid": 3595,
+        "type": "SchedCLS",
+        "currentRuntime": 47826,
+        "currentRunCount": 5,
+        "cumulRuntime": 199498,
+        "cumulRunCount": 25,
+        "totalRuntime": 3826041,
+        "totalRunCount": 565,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0047826,
+        "perCpuUsage": 0.0007970999999999999
+    },
+    {
+        "node": "minikube",
+        "progid": 3635,
+        "type": "SchedCLS",
+        "currentRuntime": 46743,
+        "currentRunCount": 8,
+        "cumulRuntime": 194966,
+        "cumulRunCount": 32,
+        "totalRuntime": 4221973,
+        "totalRunCount": 657,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0046743,
+        "perCpuUsage": 0.00077905
+    },
+    {
+        "node": "minikube",
+        "progid": 3545,
+        "type": "SchedCLS",
+        "currentRuntime": 44471,
+        "currentRunCount": 24,
+        "cumulRuntime": 78220,
+        "cumulRunCount": 42,
+        "totalRuntime": 1251381,
+        "totalRunCount": 615,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0044471,
+        "perCpuUsage": 0.0007411833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3651,
+        "type": "SchedCLS",
+        "currentRuntime": 43469,
+        "currentRunCount": 10,
+        "cumulRuntime": 261479,
+        "cumulRunCount": 66,
+        "totalRuntime": 4494797,
+        "totalRunCount": 1082,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0043469,
+        "perCpuUsage": 0.0007244833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3643,
+        "type": "SchedCLS",
+        "currentRuntime": 40002,
+        "currentRunCount": 3,
+        "cumulRuntime": 231651,
+        "cumulRunCount": 27,
+        "totalRuntime": 4077732,
+        "totalRunCount": 452,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0040002,
+        "perCpuUsage": 0.0006667
+    },
+    {
+        "node": "minikube",
+        "progid": 3521,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 32619,
+        "currentRunCount": 8,
+        "cumulRuntime": 99142,
+        "cumulRunCount": 31,
+        "totalRuntime": 1671301,
+        "totalRunCount": 591,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0032619,
+        "perCpuUsage": 0.00054365
+    },
+    {
+        "node": "minikube",
+        "progid": 3522,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 21460,
+        "currentRunCount": 10,
+        "cumulRuntime": 70946,
+        "cumulRunCount": 41,
+        "totalRuntime": 984933,
+        "totalRunCount": 746,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.002146,
+        "perCpuUsage": 0.00035766666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3691,
+        "type": "SchedCLS",
+        "currentRuntime": 20357,
+        "currentRunCount": 3,
+        "cumulRuntime": 70156,
+        "cumulRunCount": 9,
+        "totalRuntime": 1611955,
+        "totalRunCount": 223,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0020357,
+        "perCpuUsage": 0.00033928333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3557,
+        "type": "SchedCLS",
+        "currentRuntime": 17639,
+        "currentRunCount": 21,
+        "cumulRuntime": 30609,
+        "cumulRunCount": 36,
+        "totalRuntime": 442288,
+        "totalRunCount": 501,
+        "mapMemory": 48758784,
+        "mapCount": 9,
+        "totalCpuUsage": 0.0017639,
+        "perCpuUsage": 0.00029398333333333337
+    },
+    {
+        "node": "minikube",
+        "progid": 3728,
+        "type": "SchedCLS",
+        "currentRuntime": 17601,
+        "currentRunCount": 2,
+        "cumulRuntime": 55680,
+        "cumulRunCount": 6,
+        "totalRuntime": 465738,
+        "totalRunCount": 44,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0017601,
+        "perCpuUsage": 0.00029335
+    },
+    {
+        "node": "minikube",
+        "progid": 3518,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 13045,
+        "currentRunCount": 6,
+        "cumulRuntime": 36430,
+        "cumulRunCount": 21,
+        "totalRuntime": 525805,
+        "totalRunCount": 326,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0013045,
+        "perCpuUsage": 0.00021741666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3675,
+        "type": "SchedCLS",
+        "currentRuntime": 11270,
+        "currentRunCount": 3,
+        "cumulRuntime": 11270,
+        "cumulRunCount": 3,
+        "totalRuntime": 591134,
+        "totalRunCount": 125,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.001127,
+        "perCpuUsage": 0.00018783333333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3699,
+        "type": "SchedCLS",
+        "currentRuntime": 11090,
+        "currentRunCount": 1,
+        "cumulRuntime": 29933,
+        "cumulRunCount": 3,
+        "totalRuntime": 325406,
+        "totalRunCount": 26,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.001109,
+        "perCpuUsage": 0.00018483333333333332
+    },
+    {
+        "node": "minikube",
+        "progid": 3,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 4,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 5,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 6,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 7,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 8,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 13,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 14,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 3068,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3069,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3507,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3512,
+        "type": "SchedCLS",
+        "mapMemory": 23560192,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3513,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3514,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3515,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3516,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3517,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 2875,
+        "totalRunCount": 13,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3519,
+        "type": "CGroupSockAddr",
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3520,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 76921,
+        "totalRunCount": 94,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3523,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 1393,
+        "cumulRunCount": 1,
+        "totalRuntime": 237909,
+        "totalRunCount": 457,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3524,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 1432,
+        "cumulRunCount": 1,
+        "totalRuntime": 127861,
+        "totalRunCount": 87,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3525,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3532,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3533,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3534,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3535,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3536,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3537,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    }
+]
+[
+    {
+        "node": "minikube",
+        "progid": 3859,
+        "type": "Tracing",
+        "name": "ig_top_ebpf_it",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 501855,
+        "currentRunCount": 3540,
+        "cumulRuntime": 1894213,
+        "cumulRunCount": 14151,
+        "totalRuntime": 1894213,
+        "totalRunCount": 14151,
+        "mapMemory": 4096,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0501855,
+        "perCpuUsage": 0.00836425
+    },
+    {
+        "node": "minikube",
+        "progid": 3599,
+        "type": "SchedCLS",
+        "currentRuntime": 222840,
+        "currentRunCount": 38,
+        "cumulRuntime": 1715872,
+        "cumulRunCount": 323,
+        "totalRuntime": 25845583,
+        "totalRunCount": 5256,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.022284,
+        "perCpuUsage": 0.0037140000000000003
+    },
+    {
+        "node": "minikube",
+        "progid": 3531,
+        "type": "SchedCLS",
+        "currentRuntime": 179526,
+        "currentRunCount": 28,
+        "cumulRuntime": 580722,
+        "cumulRunCount": 105,
+        "totalRuntime": 9842142,
+        "totalRunCount": 1872,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0179526,
+        "perCpuUsage": 0.0029920999999999997
+    },
+    {
+        "node": "minikube",
+        "progid": 3717,
+        "type": "TracePoint",
+        "name": "ig_execve_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 154597,
+        "currentRunCount": 19,
+        "cumulRuntime": 865390,
+        "cumulRunCount": 126,
+        "totalRuntime": 12236635,
+        "totalRunCount": 1807,
+        "mapMemory": 1986560,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0154597,
+        "perCpuUsage": 0.0025766166666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3563,
+        "type": "SchedCLS",
+        "currentRuntime": 107184,
+        "currentRunCount": 19,
+        "cumulRuntime": 485723,
+        "cumulRunCount": 94,
+        "totalRuntime": 7113314,
+        "totalRunCount": 1599,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0107184,
+        "perCpuUsage": 0.0017863999999999998
+    },
+    {
+        "node": "minikube",
+        "progid": 3720,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 72483,
+        "currentRunCount": 40,
+        "cumulRuntime": 392374,
+        "cumulRunCount": 174,
+        "totalRuntime": 4845298,
+        "totalRunCount": 2076,
+        "mapMemory": 2977792,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0072483,
+        "perCpuUsage": 0.00120805
+    },
+    {
+        "node": "minikube",
+        "progid": 3619,
+        "type": "SchedCLS",
+        "currentRuntime": 67721,
+        "currentRunCount": 20,
+        "cumulRuntime": 439945,
+        "cumulRunCount": 114,
+        "totalRuntime": 7869125,
+        "totalRunCount": 2274,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0067721,
+        "perCpuUsage": 0.0011286833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3595,
+        "type": "SchedCLS",
+        "currentRuntime": 43849,
+        "currentRunCount": 5,
+        "cumulRuntime": 243347,
+        "cumulRunCount": 30,
+        "totalRuntime": 3869890,
+        "totalRunCount": 570,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0043849,
+        "perCpuUsage": 0.0007308166666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3691,
+        "type": "SchedCLS",
+        "currentRuntime": 41865,
+        "currentRunCount": 5,
+        "cumulRuntime": 112021,
+        "cumulRunCount": 14,
+        "totalRuntime": 1653820,
+        "totalRunCount": 228,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0041865,
+        "perCpuUsage": 0.00069775
+    },
+    {
+        "node": "minikube",
+        "progid": 3545,
+        "type": "SchedCLS",
+        "currentRuntime": 40404,
+        "currentRunCount": 15,
+        "cumulRuntime": 118624,
+        "cumulRunCount": 57,
+        "totalRuntime": 1291785,
+        "totalRunCount": 630,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0040404,
+        "perCpuUsage": 0.0006734000000000001
+    },
+    {
+        "node": "minikube",
+        "progid": 3719,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 35321,
+        "currentRunCount": 40,
+        "cumulRuntime": 169611,
+        "cumulRunCount": 174,
+        "totalRuntime": 2027533,
+        "totalRunCount": 2076,
+        "mapMemory": 20480,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0035321,
+        "perCpuUsage": 0.0005886833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3643,
+        "type": "SchedCLS",
+        "currentRuntime": 32177,
+        "currentRunCount": 3,
+        "cumulRuntime": 263828,
+        "cumulRunCount": 30,
+        "totalRuntime": 4109909,
+        "totalRunCount": 455,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0032177,
+        "perCpuUsage": 0.0005362833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3718,
+        "type": "TracePoint",
+        "name": "ig_execve_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 31456,
+        "currentRunCount": 23,
+        "cumulRuntime": 201013,
+        "cumulRunCount": 152,
+        "totalRuntime": 2756213,
+        "totalRunCount": 2059,
+        "mapMemory": 1970176,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0031456,
+        "perCpuUsage": 0.0005242666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3635,
+        "type": "SchedCLS",
+        "currentRuntime": 25055,
+        "currentRunCount": 4,
+        "cumulRuntime": 220021,
+        "cumulRunCount": 36,
+        "totalRuntime": 4247028,
+        "totalRunCount": 661,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0025055,
+        "perCpuUsage": 0.00041758333333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3539,
+        "type": "SchedCLS",
+        "currentRuntime": 23813,
+        "currentRunCount": 1,
+        "cumulRuntime": 23813,
+        "cumulRunCount": 1,
+        "totalRuntime": 140224,
+        "totalRunCount": 15,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0023813,
+        "perCpuUsage": 0.0003968833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3728,
+        "type": "SchedCLS",
+        "currentRuntime": 21779,
+        "currentRunCount": 2,
+        "cumulRuntime": 77459,
+        "cumulRunCount": 8,
+        "totalRuntime": 487517,
+        "totalRunCount": 46,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0021779,
+        "perCpuUsage": 0.0003629833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3651,
+        "type": "SchedCLS",
+        "currentRuntime": 20527,
+        "currentRunCount": 4,
+        "cumulRuntime": 282006,
+        "cumulRunCount": 70,
+        "totalRuntime": 4515324,
+        "totalRunCount": 1086,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0020527,
+        "perCpuUsage": 0.0003421166666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3521,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 20157,
+        "currentRunCount": 8,
+        "cumulRuntime": 119299,
+        "cumulRunCount": 39,
+        "totalRuntime": 1691458,
+        "totalRunCount": 599,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0020157,
+        "perCpuUsage": 0.00033595
+    },
+    {
+        "node": "minikube",
+        "progid": 3522,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 15179,
+        "currentRunCount": 10,
+        "cumulRuntime": 86125,
+        "cumulRunCount": 51,
+        "totalRuntime": 1000112,
+        "totalRunCount": 756,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0015179,
+        "perCpuUsage": 0.00025298333333333335
+    },
+    {
+        "node": "minikube",
+        "progid": 3557,
+        "type": "SchedCLS",
+        "currentRuntime": 12832,
+        "currentRunCount": 10,
+        "cumulRuntime": 43441,
+        "cumulRunCount": 46,
+        "totalRuntime": 455120,
+        "totalRunCount": 511,
+        "mapMemory": 48758784,
+        "mapCount": 9,
+        "totalCpuUsage": 0.0012832,
+        "perCpuUsage": 0.00021386666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3699,
+        "type": "SchedCLS",
+        "currentRuntime": 12652,
+        "currentRunCount": 1,
+        "cumulRuntime": 42585,
+        "cumulRunCount": 4,
+        "totalRuntime": 338058,
+        "totalRunCount": 27,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0012652,
+        "perCpuUsage": 0.00021086666666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3683,
+        "type": "SchedCLS",
+        "currentRuntime": 12543,
+        "currentRunCount": 2,
+        "cumulRuntime": 87300,
+        "cumulRunCount": 14,
+        "totalRuntime": 1009753,
+        "totalRunCount": 182,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0012543,
+        "perCpuUsage": 0.00020905
+    },
+    {
+        "node": "minikube",
+        "progid": 3518,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 9948,
+        "currentRunCount": 6,
+        "cumulRuntime": 46378,
+        "cumulRunCount": 27,
+        "totalRuntime": 535753,
+        "totalRunCount": 332,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0009948,
+        "perCpuUsage": 0.0001658
+    },
+    {
+        "node": "minikube",
+        "progid": 3627,
+        "type": "SchedCLS",
+        "currentRuntime": 2524,
+        "currentRunCount": 1,
+        "cumulRuntime": 2524,
+        "cumulRunCount": 1,
+        "totalRuntime": 52202,
+        "totalRunCount": 16,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0002524,
+        "perCpuUsage": 0.00004206666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 4,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 5,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 6,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 7,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 8,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 13,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 14,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 3068,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3069,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3507,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3512,
+        "type": "SchedCLS",
+        "mapMemory": 23560192,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3513,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3514,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3515,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3516,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3517,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 2875,
+        "totalRunCount": 13,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3519,
+        "type": "CGroupSockAddr",
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3520,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 76921,
+        "totalRunCount": 94,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3523,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 1393,
+        "cumulRunCount": 1,
+        "totalRuntime": 237909,
+        "totalRunCount": 457,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3524,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 1432,
+        "cumulRunCount": 1,
+        "totalRuntime": 127861,
+        "totalRunCount": 87,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3525,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3532,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3533,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3534,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3535,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    }
+]
+[
+    {
+        "node": "minikube",
+        "progid": 3599,
+        "type": "SchedCLS",
+        "currentRuntime": 560055,
+        "currentRunCount": 105,
+        "cumulRuntime": 2275927,
+        "cumulRunCount": 428,
+        "totalRuntime": 26405638,
+        "totalRunCount": 5361,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0560055,
+        "perCpuUsage": 0.00933425
+    },
+    {
+        "node": "minikube",
+        "progid": 3717,
+        "type": "TracePoint",
+        "name": "ig_execve_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 501590,
+        "currentRunCount": 75,
+        "cumulRuntime": 1366980,
+        "cumulRunCount": 201,
+        "totalRuntime": 12738225,
+        "totalRunCount": 1882,
+        "mapMemory": 1986560,
+        "mapCount": 2,
+        "totalCpuUsage": 0.050159,
+        "perCpuUsage": 0.008359833333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3859,
+        "type": "Tracing",
+        "name": "ig_top_ebpf_it",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 482485,
+        "currentRunCount": 3544,
+        "cumulRuntime": 2376698,
+        "cumulRunCount": 17695,
+        "totalRuntime": 2376698,
+        "totalRunCount": 17695,
+        "mapMemory": 4096,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0482485,
+        "perCpuUsage": 0.008041416666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3720,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 189734,
+        "currentRunCount": 59,
+        "cumulRuntime": 582108,
+        "cumulRunCount": 233,
+        "totalRuntime": 5035032,
+        "totalRunCount": 2135,
+        "mapMemory": 2977792,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0189734,
+        "perCpuUsage": 0.0031622333333333336
+    },
+    {
+        "node": "minikube",
+        "progid": 3619,
+        "type": "SchedCLS",
+        "currentRuntime": 181191,
+        "currentRunCount": 47,
+        "cumulRuntime": 621136,
+        "cumulRunCount": 161,
+        "totalRuntime": 8050316,
+        "totalRunCount": 2321,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0181191,
+        "perCpuUsage": 0.0030198499999999997
+    },
+    {
+        "node": "minikube",
+        "progid": 3563,
+        "type": "SchedCLS",
+        "currentRuntime": 149829,
+        "currentRunCount": 28,
+        "cumulRuntime": 635552,
+        "cumulRunCount": 122,
+        "totalRuntime": 7263143,
+        "totalRunCount": 1627,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0149829,
+        "perCpuUsage": 0.00249715
+    },
+    {
+        "node": "minikube",
+        "progid": 3531,
+        "type": "SchedCLS",
+        "currentRuntime": 137186,
+        "currentRunCount": 27,
+        "cumulRuntime": 717908,
+        "cumulRunCount": 132,
+        "totalRuntime": 9979328,
+        "totalRunCount": 1899,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0137186,
+        "perCpuUsage": 0.002286433333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3595,
+        "type": "SchedCLS",
+        "currentRuntime": 115779,
+        "currentRunCount": 15,
+        "cumulRuntime": 359126,
+        "cumulRunCount": 45,
+        "totalRuntime": 3985669,
+        "totalRunCount": 585,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0115779,
+        "perCpuUsage": 0.00192965
+    },
+    {
+        "node": "minikube",
+        "progid": 3643,
+        "type": "SchedCLS",
+        "currentRuntime": 106401,
+        "currentRunCount": 9,
+        "cumulRuntime": 370229,
+        "cumulRunCount": 39,
+        "totalRuntime": 4216310,
+        "totalRunCount": 464,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0106401,
+        "perCpuUsage": 0.00177335
+    },
+    {
+        "node": "minikube",
+        "progid": 3718,
+        "type": "TracePoint",
+        "name": "ig_execve_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 94135,
+        "currentRunCount": 76,
+        "cumulRuntime": 295148,
+        "cumulRunCount": 228,
+        "totalRuntime": 2850348,
+        "totalRunCount": 2135,
+        "mapMemory": 1970176,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0094135,
+        "perCpuUsage": 0.0015689166666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3719,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 72188,
+        "currentRunCount": 59,
+        "cumulRuntime": 241799,
+        "cumulRunCount": 233,
+        "totalRuntime": 2099721,
+        "totalRunCount": 2135,
+        "mapMemory": 20480,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0072188,
+        "perCpuUsage": 0.0012031333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3635,
+        "type": "SchedCLS",
+        "currentRuntime": 70948,
+        "currentRunCount": 12,
+        "cumulRuntime": 290969,
+        "cumulRunCount": 48,
+        "totalRuntime": 4317976,
+        "totalRunCount": 673,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0070948,
+        "perCpuUsage": 0.0011824666666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3651,
+        "type": "SchedCLS",
+        "currentRuntime": 59739,
+        "currentRunCount": 12,
+        "cumulRuntime": 341745,
+        "cumulRunCount": 82,
+        "totalRuntime": 4575063,
+        "totalRunCount": 1098,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0059739,
+        "perCpuUsage": 0.00099565
+    },
+    {
+        "node": "minikube",
+        "progid": 3683,
+        "type": "SchedCLS",
+        "currentRuntime": 28142,
+        "currentRunCount": 6,
+        "cumulRuntime": 115442,
+        "cumulRunCount": 20,
+        "totalRuntime": 1037895,
+        "totalRunCount": 188,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0028142,
+        "perCpuUsage": 0.00046903333333333337
+    },
+    {
+        "node": "minikube",
+        "progid": 3728,
+        "type": "SchedCLS",
+        "currentRuntime": 24594,
+        "currentRunCount": 2,
+        "cumulRuntime": 102053,
+        "cumulRunCount": 10,
+        "totalRuntime": 512111,
+        "totalRunCount": 48,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0024594,
+        "perCpuUsage": 0.0004099
+    },
+    {
+        "node": "minikube",
+        "progid": 3521,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 22572,
+        "currentRunCount": 8,
+        "cumulRuntime": 141871,
+        "cumulRunCount": 47,
+        "totalRuntime": 1714030,
+        "totalRunCount": 607,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0022572,
+        "perCpuUsage": 0.0003762
+    },
+    {
+        "node": "minikube",
+        "progid": 3524,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 22472,
+        "currentRunCount": 12,
+        "cumulRuntime": 23904,
+        "cumulRunCount": 13,
+        "totalRuntime": 150333,
+        "totalRunCount": 99,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0022472,
+        "perCpuUsage": 0.00037453333333333335
+    },
+    {
+        "node": "minikube",
+        "progid": 3691,
+        "type": "SchedCLS",
+        "currentRuntime": 19976,
+        "currentRunCount": 3,
+        "cumulRuntime": 131997,
+        "cumulRunCount": 17,
+        "totalRuntime": 1673796,
+        "totalRunCount": 231,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0019976,
+        "perCpuUsage": 0.0003329333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3699,
+        "type": "SchedCLS",
+        "currentRuntime": 18263,
+        "currentRunCount": 1,
+        "cumulRuntime": 60848,
+        "cumulRunCount": 5,
+        "totalRuntime": 356321,
+        "totalRunCount": 28,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0018263,
+        "perCpuUsage": 0.00030438333333333335
+    },
+    {
+        "node": "minikube",
+        "progid": 3545,
+        "type": "SchedCLS",
+        "currentRuntime": 17222,
+        "currentRunCount": 7,
+        "cumulRuntime": 135846,
+        "cumulRunCount": 64,
+        "totalRuntime": 1309007,
+        "totalRunCount": 637,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0017222,
+        "perCpuUsage": 0.00028703333333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3523,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 15984,
+        "currentRunCount": 49,
+        "cumulRuntime": 17377,
+        "cumulRunCount": 50,
+        "totalRuntime": 253893,
+        "totalRunCount": 506,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0015984,
+        "perCpuUsage": 0.0002664
+    },
+    {
+        "node": "minikube",
+        "progid": 3522,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 10297,
+        "currentRunCount": 4,
+        "cumulRuntime": 96422,
+        "cumulRunCount": 55,
+        "totalRuntime": 1010409,
+        "totalRunCount": 760,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0010297,
+        "perCpuUsage": 0.00017161666666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3557,
+        "type": "SchedCLS",
+        "currentRuntime": 8486,
+        "currentRunCount": 5,
+        "cumulRuntime": 51927,
+        "cumulRunCount": 51,
+        "totalRuntime": 463606,
+        "totalRunCount": 516,
+        "mapMemory": 48758784,
+        "mapCount": 9,
+        "totalCpuUsage": 0.0008486,
+        "perCpuUsage": 0.00014143333333333335
+    },
+    {
+        "node": "minikube",
+        "progid": 3539,
+        "type": "SchedCLS",
+        "currentRuntime": 5009,
+        "currentRunCount": 1,
+        "cumulRuntime": 28822,
+        "cumulRunCount": 2,
+        "totalRuntime": 145233,
+        "totalRunCount": 16,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0005009,
+        "perCpuUsage": 0.00008348333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3518,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 3587,
+        "currentRunCount": 2,
+        "cumulRuntime": 49965,
+        "cumulRunCount": 29,
+        "totalRuntime": 539340,
+        "totalRunCount": 334,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0003587,
+        "perCpuUsage": 0.000059783333333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 4,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 5,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 6,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 7,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 8,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 13,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 14,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 3068,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3069,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3507,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3512,
+        "type": "SchedCLS",
+        "mapMemory": 23560192,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3513,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3514,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3515,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3516,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3517,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 2875,
+        "totalRunCount": 13,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3519,
+        "type": "CGroupSockAddr",
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3520,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 76921,
+        "totalRunCount": 94,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3525,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3532,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3533,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3534,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3535,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3536,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    }
+]
+[
+    {
+        "node": "minikube",
+        "progid": 3859,
+        "type": "Tracing",
+        "name": "ig_top_ebpf_it",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 406048,
+        "currentRunCount": 3604,
+        "cumulRuntime": 2782746,
+        "cumulRunCount": 21299,
+        "totalRuntime": 2782746,
+        "totalRunCount": 21299,
+        "mapMemory": 4096,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0406048,
+        "perCpuUsage": 0.006767466666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3717,
+        "type": "TracePoint",
+        "name": "ig_execve_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 171126,
+        "currentRunCount": 23,
+        "cumulRuntime": 1538106,
+        "cumulRunCount": 224,
+        "totalRuntime": 12909351,
+        "totalRunCount": 1905,
+        "mapMemory": 1986560,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0171126,
+        "perCpuUsage": 0.0028520999999999998
+    },
+    {
+        "node": "minikube",
+        "progid": 3720,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 102767,
+        "currentRunCount": 42,
+        "cumulRuntime": 684875,
+        "cumulRunCount": 275,
+        "totalRuntime": 5137799,
+        "totalRunCount": 2177,
+        "mapMemory": 2977792,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0102767,
+        "perCpuUsage": 0.0017127833333333332
+    },
+    {
+        "node": "minikube",
+        "progid": 3531,
+        "type": "SchedCLS",
+        "currentRuntime": 102764,
+        "currentRunCount": 15,
+        "cumulRuntime": 820672,
+        "cumulRunCount": 147,
+        "totalRuntime": 10082092,
+        "totalRunCount": 1914,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0102764,
+        "perCpuUsage": 0.0017127333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3563,
+        "type": "SchedCLS",
+        "currentRuntime": 59658,
+        "currentRunCount": 11,
+        "cumulRuntime": 695210,
+        "cumulRunCount": 133,
+        "totalRuntime": 7322801,
+        "totalRunCount": 1638,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0059658,
+        "perCpuUsage": 0.0009943
+    },
+    {
+        "node": "minikube",
+        "progid": 3719,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 40126,
+        "currentRunCount": 42,
+        "cumulRuntime": 281925,
+        "cumulRunCount": 275,
+        "totalRuntime": 2139847,
+        "totalRunCount": 2177,
+        "mapMemory": 20480,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0040126,
+        "perCpuUsage": 0.0006687666666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3718,
+        "type": "TracePoint",
+        "name": "ig_execve_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 40013,
+        "currentRunCount": 30,
+        "cumulRuntime": 335161,
+        "cumulRunCount": 258,
+        "totalRuntime": 2890361,
+        "totalRunCount": 2165,
+        "mapMemory": 1970176,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0040013,
+        "perCpuUsage": 0.0006668833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3521,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 25709,
+        "currentRunCount": 11,
+        "cumulRuntime": 167580,
+        "cumulRunCount": 58,
+        "totalRuntime": 1739739,
+        "totalRunCount": 618,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0025709,
+        "perCpuUsage": 0.00042848333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3522,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 23092,
+        "currentRunCount": 18,
+        "cumulRuntime": 119514,
+        "cumulRunCount": 73,
+        "totalRuntime": 1033501,
+        "totalRunCount": 778,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0023092,
+        "perCpuUsage": 0.0003848666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3545,
+        "type": "SchedCLS",
+        "currentRuntime": 20437,
+        "currentRunCount": 8,
+        "cumulRuntime": 156283,
+        "cumulRunCount": 72,
+        "totalRuntime": 1329444,
+        "totalRunCount": 645,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0020437,
+        "perCpuUsage": 0.00034061666666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3728,
+        "type": "SchedCLS",
+        "currentRuntime": 18214,
+        "currentRunCount": 2,
+        "cumulRuntime": 120267,
+        "cumulRunCount": 12,
+        "totalRuntime": 530325,
+        "totalRunCount": 50,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0018214,
+        "perCpuUsage": 0.00030356666666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3699,
+        "type": "SchedCLS",
+        "currentRuntime": 8305,
+        "currentRunCount": 1,
+        "cumulRuntime": 69153,
+        "cumulRunCount": 6,
+        "totalRuntime": 364626,
+        "totalRunCount": 29,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0008305,
+        "perCpuUsage": 0.00013841666666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3557,
+        "type": "SchedCLS",
+        "currentRuntime": 4870,
+        "currentRunCount": 6,
+        "cumulRuntime": 56797,
+        "cumulRunCount": 57,
+        "totalRuntime": 468476,
+        "totalRunCount": 522,
+        "mapMemory": 48758784,
+        "mapCount": 9,
+        "totalCpuUsage": 0.000487,
+        "perCpuUsage": 0.00008116666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3518,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 3496,
+        "currentRunCount": 4,
+        "cumulRuntime": 53461,
+        "cumulRunCount": 33,
+        "totalRuntime": 542836,
+        "totalRunCount": 338,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0003496,
+        "perCpuUsage": 0.00005826666666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 4,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 5,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 6,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 7,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 8,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 13,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 14,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 3068,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3069,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3507,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3512,
+        "type": "SchedCLS",
+        "mapMemory": 23560192,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3513,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3514,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3515,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3516,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3517,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 2875,
+        "totalRunCount": 13,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3519,
+        "type": "CGroupSockAddr",
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3520,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 76921,
+        "totalRunCount": 94,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3523,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 17377,
+        "cumulRunCount": 50,
+        "totalRuntime": 253893,
+        "totalRunCount": 506,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3524,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 23904,
+        "cumulRunCount": 13,
+        "totalRuntime": 150333,
+        "totalRunCount": 99,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3525,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3532,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3533,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3534,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3535,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3536,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3537,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3538,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3539,
+        "type": "SchedCLS",
+        "cumulRuntime": 28822,
+        "cumulRunCount": 2,
+        "totalRuntime": 145233,
+        "totalRunCount": 16,
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3540,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3541,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3542,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3543,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3544,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3547,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    }
+]
+[
+    {
+        "node": "minikube",
+        "progid": 3859,
+        "type": "Tracing",
+        "name": "ig_top_ebpf_it",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 390450,
+        "currentRunCount": 3526,
+        "cumulRuntime": 3173196,
+        "cumulRunCount": 24825,
+        "totalRuntime": 3173196,
+        "totalRunCount": 24825,
+        "mapMemory": 4096,
+        "mapCount": 1,
+        "totalCpuUsage": 0.039045,
+        "perCpuUsage": 0.0065075
+    },
+    {
+        "node": "minikube",
+        "progid": 3599,
+        "type": "SchedCLS",
+        "currentRuntime": 247055,
+        "currentRunCount": 40,
+        "cumulRuntime": 2522982,
+        "cumulRunCount": 468,
+        "totalRuntime": 26652693,
+        "totalRunCount": 5401,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0247055,
+        "perCpuUsage": 0.004117583333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3531,
+        "type": "SchedCLS",
+        "currentRuntime": 106921,
+        "currentRunCount": 22,
+        "cumulRuntime": 927593,
+        "cumulRunCount": 169,
+        "totalRuntime": 10189013,
+        "totalRunCount": 1936,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0106921,
+        "perCpuUsage": 0.0017820166666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3563,
+        "type": "SchedCLS",
+        "currentRuntime": 76608,
+        "currentRunCount": 23,
+        "cumulRuntime": 771818,
+        "cumulRunCount": 156,
+        "totalRuntime": 7399409,
+        "totalRunCount": 1661,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0076608,
+        "perCpuUsage": 0.0012768
+    },
+    {
+        "node": "minikube",
+        "progid": 3651,
+        "type": "SchedCLS",
+        "currentRuntime": 54506,
+        "currentRunCount": 20,
+        "cumulRuntime": 396251,
+        "cumulRunCount": 102,
+        "totalRuntime": 4629569,
+        "totalRunCount": 1118,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0054506,
+        "perCpuUsage": 0.0009084333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3643,
+        "type": "SchedCLS",
+        "currentRuntime": 50532,
+        "currentRunCount": 5,
+        "cumulRuntime": 420761,
+        "cumulRunCount": 44,
+        "totalRuntime": 4266842,
+        "totalRunCount": 469,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0050532,
+        "perCpuUsage": 0.0008422
+    },
+    {
+        "node": "minikube",
+        "progid": 3635,
+        "type": "SchedCLS",
+        "currentRuntime": 36726,
+        "currentRunCount": 4,
+        "cumulRuntime": 327695,
+        "cumulRunCount": 52,
+        "totalRuntime": 4354702,
+        "totalRunCount": 677,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0036726,
+        "perCpuUsage": 0.0006121
+    },
+    {
+        "node": "minikube",
+        "progid": 3545,
+        "type": "SchedCLS",
+        "currentRuntime": 34396,
+        "currentRunCount": 17,
+        "cumulRuntime": 190679,
+        "cumulRunCount": 89,
+        "totalRuntime": 1363840,
+        "totalRunCount": 662,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0034396,
+        "perCpuUsage": 0.0005732666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3683,
+        "type": "SchedCLS",
+        "currentRuntime": 20126,
+        "currentRunCount": 2,
+        "cumulRuntime": 135568,
+        "cumulRunCount": 22,
+        "totalRuntime": 1058021,
+        "totalRunCount": 190,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0020126,
+        "perCpuUsage": 0.0003354333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3619,
+        "type": "SchedCLS",
+        "currentRuntime": 19034,
+        "currentRunCount": 2,
+        "cumulRuntime": 640170,
+        "cumulRunCount": 163,
+        "totalRuntime": 8069350,
+        "totalRunCount": 2323,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0019034,
+        "perCpuUsage": 0.0003172333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3521,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 18942,
+        "currentRunCount": 8,
+        "cumulRuntime": 186522,
+        "cumulRunCount": 66,
+        "totalRuntime": 1758681,
+        "totalRunCount": 626,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0018942,
+        "perCpuUsage": 0.0003157
+    },
+    {
+        "node": "minikube",
+        "progid": 3728,
+        "type": "SchedCLS",
+        "currentRuntime": 18222,
+        "currentRunCount": 2,
+        "cumulRuntime": 138489,
+        "cumulRunCount": 14,
+        "totalRuntime": 548547,
+        "totalRunCount": 52,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0018222,
+        "perCpuUsage": 0.0003037
+    },
+    {
+        "node": "minikube",
+        "progid": 3717,
+        "type": "TracePoint",
+        "name": "ig_execve_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 15729,
+        "currentRunCount": 3,
+        "cumulRuntime": 1553835,
+        "cumulRunCount": 227,
+        "totalRuntime": 12925080,
+        "totalRunCount": 1908,
+        "mapMemory": 1986560,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0015729,
+        "perCpuUsage": 0.00026215
+    },
+    {
+        "node": "minikube",
+        "progid": 3691,
+        "type": "SchedCLS",
+        "currentRuntime": 15438,
+        "currentRunCount": 1,
+        "cumulRuntime": 147435,
+        "cumulRunCount": 18,
+        "totalRuntime": 1689234,
+        "totalRunCount": 232,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0015438,
+        "perCpuUsage": 0.00025729999999999997
+    },
+    {
+        "node": "minikube",
+        "progid": 3720,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 13652,
+        "currentRunCount": 27,
+        "cumulRuntime": 698527,
+        "cumulRunCount": 302,
+        "totalRuntime": 5151451,
+        "totalRunCount": 2204,
+        "mapMemory": 2977792,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0013652,
+        "perCpuUsage": 0.00022753333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3699,
+        "type": "SchedCLS",
+        "currentRuntime": 11391,
+        "currentRunCount": 1,
+        "cumulRuntime": 80544,
+        "cumulRunCount": 7,
+        "totalRuntime": 376017,
+        "totalRunCount": 30,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0011391,
+        "perCpuUsage": 0.00018985
+    },
+    {
+        "node": "minikube",
+        "progid": 3719,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 9526,
+        "currentRunCount": 27,
+        "cumulRuntime": 291451,
+        "cumulRunCount": 302,
+        "totalRuntime": 2149373,
+        "totalRunCount": 2204,
+        "mapMemory": 20480,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0009526,
+        "perCpuUsage": 0.00015876666666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3557,
+        "type": "SchedCLS",
+        "currentRuntime": 8506,
+        "currentRunCount": 14,
+        "cumulRuntime": 65303,
+        "cumulRunCount": 71,
+        "totalRuntime": 476982,
+        "totalRunCount": 536,
+        "mapMemory": 48758784,
+        "mapCount": 9,
+        "totalCpuUsage": 0.0008506,
+        "perCpuUsage": 0.00014176666666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3524,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 8035,
+        "currentRunCount": 6,
+        "cumulRuntime": 31939,
+        "cumulRunCount": 19,
+        "totalRuntime": 158368,
+        "totalRunCount": 105,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0008035,
+        "perCpuUsage": 0.00013391666666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3518,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 6501,
+        "currentRunCount": 4,
+        "cumulRuntime": 59962,
+        "cumulRunCount": 37,
+        "totalRuntime": 549337,
+        "totalRunCount": 342,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0006501,
+        "perCpuUsage": 0.00010835
+    },
+    {
+        "node": "minikube",
+        "progid": 3522,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 5270,
+        "currentRunCount": 4,
+        "cumulRuntime": 124784,
+        "cumulRunCount": 77,
+        "totalRuntime": 1038771,
+        "totalRunCount": 782,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.000527,
+        "perCpuUsage": 0.00008783333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3718,
+        "type": "TracePoint",
+        "name": "ig_execve_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 3626,
+        "currentRunCount": 3,
+        "cumulRuntime": 338787,
+        "cumulRunCount": 261,
+        "totalRuntime": 2893987,
+        "totalRunCount": 2168,
+        "mapMemory": 1970176,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0003626,
+        "perCpuUsage": 0.00006043333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3523,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 2645,
+        "currentRunCount": 2,
+        "cumulRuntime": 20022,
+        "cumulRunCount": 52,
+        "totalRuntime": 256538,
+        "totalRunCount": 508,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0002645,
+        "perCpuUsage": 0.00004408333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 4,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 5,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 6,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 7,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 8,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 13,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 14,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 3068,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3069,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3507,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3512,
+        "type": "SchedCLS",
+        "mapMemory": 23560192,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3513,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3514,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3515,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3516,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3517,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 2875,
+        "totalRunCount": 13,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3519,
+        "type": "CGroupSockAddr",
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3520,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 76921,
+        "totalRunCount": 94,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3525,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3532,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3533,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3534,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3535,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3536,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3537,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3538,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    }
+]
+[
+    {
+        "node": "minikube",
+        "progid": 3859,
+        "type": "Tracing",
+        "name": "ig_top_ebpf_it",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 393035,
+        "currentRunCount": 3526,
+        "cumulRuntime": 3566231,
+        "cumulRunCount": 28351,
+        "totalRuntime": 3566231,
+        "totalRunCount": 28351,
+        "mapMemory": 4096,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0393035,
+        "perCpuUsage": 0.006550583333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3599,
+        "type": "SchedCLS",
+        "currentRuntime": 218533,
+        "currentRunCount": 48,
+        "cumulRuntime": 2741515,
+        "cumulRunCount": 516,
+        "totalRuntime": 26871226,
+        "totalRunCount": 5449,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0218533,
+        "perCpuUsage": 0.0036422166666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3563,
+        "type": "SchedCLS",
+        "currentRuntime": 183162,
+        "currentRunCount": 36,
+        "cumulRuntime": 954980,
+        "cumulRunCount": 192,
+        "totalRuntime": 7582571,
+        "totalRunCount": 1697,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0183162,
+        "perCpuUsage": 0.0030527
+    },
+    {
+        "node": "minikube",
+        "progid": 3531,
+        "type": "SchedCLS",
+        "currentRuntime": 129173,
+        "currentRunCount": 34,
+        "cumulRuntime": 1056766,
+        "cumulRunCount": 203,
+        "totalRuntime": 10318186,
+        "totalRunCount": 1970,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0129173,
+        "perCpuUsage": 0.002152883333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3619,
+        "type": "SchedCLS",
+        "currentRuntime": 66541,
+        "currentRunCount": 22,
+        "cumulRuntime": 706711,
+        "cumulRunCount": 185,
+        "totalRuntime": 8135891,
+        "totalRunCount": 2345,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0066541,
+        "perCpuUsage": 0.0011090166666666665
+    },
+    {
+        "node": "minikube",
+        "progid": 3643,
+        "type": "SchedCLS",
+        "currentRuntime": 44891,
+        "currentRunCount": 6,
+        "cumulRuntime": 465652,
+        "cumulRunCount": 50,
+        "totalRuntime": 4311733,
+        "totalRunCount": 475,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0044891,
+        "perCpuUsage": 0.0007481833333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3651,
+        "type": "SchedCLS",
+        "currentRuntime": 43096,
+        "currentRunCount": 8,
+        "cumulRuntime": 439347,
+        "cumulRunCount": 110,
+        "totalRuntime": 4672665,
+        "totalRunCount": 1126,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0043096,
+        "perCpuUsage": 0.0007182666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3595,
+        "type": "SchedCLS",
+        "currentRuntime": 37135,
+        "currentRunCount": 5,
+        "cumulRuntime": 396261,
+        "cumulRunCount": 50,
+        "totalRuntime": 4022804,
+        "totalRunCount": 590,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0037135,
+        "perCpuUsage": 0.0006189166666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3717,
+        "type": "TracePoint",
+        "name": "ig_execve_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 37116,
+        "currentRunCount": 5,
+        "cumulRuntime": 1590951,
+        "cumulRunCount": 232,
+        "totalRuntime": 12962196,
+        "totalRunCount": 1913,
+        "mapMemory": 1986560,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0037116,
+        "perCpuUsage": 0.0006186
+    },
+    {
+        "node": "minikube",
+        "progid": 3545,
+        "type": "SchedCLS",
+        "currentRuntime": 36013,
+        "currentRunCount": 15,
+        "cumulRuntime": 226692,
+        "cumulRunCount": 104,
+        "totalRuntime": 1399853,
+        "totalRunCount": 677,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0036013,
+        "perCpuUsage": 0.0006002166666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3635,
+        "type": "SchedCLS",
+        "currentRuntime": 31136,
+        "currentRunCount": 4,
+        "cumulRuntime": 358831,
+        "cumulRunCount": 56,
+        "totalRuntime": 4385838,
+        "totalRunCount": 681,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0031136,
+        "perCpuUsage": 0.0005189333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3720,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 27831,
+        "currentRunCount": 24,
+        "cumulRuntime": 726358,
+        "cumulRunCount": 326,
+        "totalRuntime": 5179282,
+        "totalRunCount": 2228,
+        "mapMemory": 2977792,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0027831,
+        "perCpuUsage": 0.00046385
+    },
+    {
+        "node": "minikube",
+        "progid": 3728,
+        "type": "SchedCLS",
+        "currentRuntime": 17722,
+        "currentRunCount": 2,
+        "cumulRuntime": 156211,
+        "cumulRunCount": 16,
+        "totalRuntime": 566269,
+        "totalRunCount": 54,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0017722,
+        "perCpuUsage": 0.00029536666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3675,
+        "type": "SchedCLS",
+        "currentRuntime": 13985,
+        "currentRunCount": 3,
+        "cumulRuntime": 25255,
+        "cumulRunCount": 6,
+        "totalRuntime": 605119,
+        "totalRunCount": 128,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0013985,
+        "perCpuUsage": 0.00023308333333333332
+    },
+    {
+        "node": "minikube",
+        "progid": 3719,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 12861,
+        "currentRunCount": 24,
+        "cumulRuntime": 304312,
+        "cumulRunCount": 326,
+        "totalRuntime": 2162234,
+        "totalRunCount": 2228,
+        "mapMemory": 20480,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0012861,
+        "perCpuUsage": 0.00021435
+    },
+    {
+        "node": "minikube",
+        "progid": 3557,
+        "type": "SchedCLS",
+        "currentRuntime": 12752,
+        "currentRunCount": 11,
+        "cumulRuntime": 78055,
+        "cumulRunCount": 82,
+        "totalRuntime": 489734,
+        "totalRunCount": 547,
+        "mapMemory": 48758784,
+        "mapCount": 9,
+        "totalCpuUsage": 0.0012752,
+        "perCpuUsage": 0.00021253333333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3691,
+        "type": "SchedCLS",
+        "currentRuntime": 9097,
+        "currentRunCount": 1,
+        "cumulRuntime": 156532,
+        "cumulRunCount": 19,
+        "totalRuntime": 1698331,
+        "totalRunCount": 233,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0009097,
+        "perCpuUsage": 0.00015161666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3521,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 8285,
+        "currentRunCount": 3,
+        "cumulRuntime": 194807,
+        "cumulRunCount": 69,
+        "totalRuntime": 1766966,
+        "totalRunCount": 629,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0008285,
+        "perCpuUsage": 0.00013808333333333335
+    },
+    {
+        "node": "minikube",
+        "progid": 3518,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 7964,
+        "currentRunCount": 3,
+        "cumulRuntime": 67926,
+        "cumulRunCount": 40,
+        "totalRuntime": 557301,
+        "totalRunCount": 345,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0007964,
+        "perCpuUsage": 0.00013273333333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3699,
+        "type": "SchedCLS",
+        "currentRuntime": 7894,
+        "currentRunCount": 1,
+        "cumulRuntime": 88438,
+        "cumulRunCount": 8,
+        "totalRuntime": 383911,
+        "totalRunCount": 31,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0007894,
+        "perCpuUsage": 0.00013156666666666668
+    },
+    {
+        "node": "minikube",
+        "progid": 3718,
+        "type": "TracePoint",
+        "name": "ig_execve_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 7134,
+        "currentRunCount": 6,
+        "cumulRuntime": 345921,
+        "cumulRunCount": 267,
+        "totalRuntime": 2901121,
+        "totalRunCount": 2174,
+        "mapMemory": 1970176,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0007134,
+        "perCpuUsage": 0.0001189
+    },
+    {
+        "node": "minikube",
+        "progid": 3522,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 5670,
+        "currentRunCount": 3,
+        "cumulRuntime": 130454,
+        "cumulRunCount": 80,
+        "totalRuntime": 1044441,
+        "totalRunCount": 785,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.000567,
+        "perCpuUsage": 0.0000945
+    },
+    {
+        "node": "minikube",
+        "progid": 3,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 4,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 5,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 6,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 7,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 8,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 13,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 14,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 3068,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3069,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3507,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3512,
+        "type": "SchedCLS",
+        "mapMemory": 23560192,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3513,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3514,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3515,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3516,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3517,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 2875,
+        "totalRunCount": 13,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3519,
+        "type": "CGroupSockAddr",
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3520,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 76921,
+        "totalRunCount": 94,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3523,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 20022,
+        "cumulRunCount": 52,
+        "totalRuntime": 256538,
+        "totalRunCount": 508,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3524,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 31939,
+        "cumulRunCount": 19,
+        "totalRuntime": 158368,
+        "totalRunCount": 105,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3525,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3532,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3533,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3534,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3535,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3536,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3537,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    }
+]
+[
+    {
+        "node": "minikube",
+        "progid": 3859,
+        "type": "Tracing",
+        "name": "ig_top_ebpf_it",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 503896,
+        "currentRunCount": 3527,
+        "cumulRuntime": 4070127,
+        "cumulRunCount": 31878,
+        "totalRuntime": 4070127,
+        "totalRunCount": 31878,
+        "mapMemory": 4096,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0503896,
+        "perCpuUsage": 0.008398266666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3599,
+        "type": "SchedCLS",
+        "currentRuntime": 221127,
+        "currentRunCount": 32,
+        "cumulRuntime": 2962642,
+        "cumulRunCount": 548,
+        "totalRuntime": 27092353,
+        "totalRunCount": 5481,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0221127,
+        "perCpuUsage": 0.00368545
+    },
+    {
+        "node": "minikube",
+        "progid": 3717,
+        "type": "TracePoint",
+        "name": "ig_execve_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 188031,
+        "currentRunCount": 43,
+        "cumulRuntime": 1778982,
+        "cumulRunCount": 275,
+        "totalRuntime": 13150227,
+        "totalRunCount": 1956,
+        "mapMemory": 1986560,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0188031,
+        "perCpuUsage": 0.00313385
+    },
+    {
+        "node": "minikube",
+        "progid": 3531,
+        "type": "SchedCLS",
+        "currentRuntime": 171239,
+        "currentRunCount": 22,
+        "cumulRuntime": 1228005,
+        "cumulRunCount": 225,
+        "totalRuntime": 10489425,
+        "totalRunCount": 1992,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0171239,
+        "perCpuUsage": 0.0028539833333333336
+    },
+    {
+        "node": "minikube",
+        "progid": 3720,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 70470,
+        "currentRunCount": 39,
+        "cumulRuntime": 796828,
+        "cumulRunCount": 365,
+        "totalRuntime": 5249752,
+        "totalRunCount": 2267,
+        "mapMemory": 2977792,
+        "mapCount": 4,
+        "totalCpuUsage": 0.007047,
+        "perCpuUsage": 0.0011745
+    },
+    {
+        "node": "minikube",
+        "progid": 3563,
+        "type": "SchedCLS",
+        "currentRuntime": 63722,
+        "currentRunCount": 13,
+        "cumulRuntime": 1018702,
+        "cumulRunCount": 205,
+        "totalRuntime": 7646293,
+        "totalRunCount": 1710,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0063722,
+        "perCpuUsage": 0.0010620333333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3619,
+        "type": "SchedCLS",
+        "currentRuntime": 59849,
+        "currentRunCount": 13,
+        "cumulRuntime": 766560,
+        "cumulRunCount": 198,
+        "totalRuntime": 8195740,
+        "totalRunCount": 2358,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0059849,
+        "perCpuUsage": 0.0009974833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3718,
+        "type": "TracePoint",
+        "name": "ig_execve_x",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 47001,
+        "currentRunCount": 47,
+        "cumulRuntime": 392922,
+        "cumulRunCount": 314,
+        "totalRuntime": 2948122,
+        "totalRunCount": 2221,
+        "mapMemory": 1970176,
+        "mapCount": 1,
+        "totalCpuUsage": 0.0047001,
+        "perCpuUsage": 0.0007833499999999999
+    },
+    {
+        "node": "minikube",
+        "progid": 3691,
+        "type": "SchedCLS",
+        "currentRuntime": 46893,
+        "currentRunCount": 5,
+        "cumulRuntime": 203425,
+        "cumulRunCount": 24,
+        "totalRuntime": 1745224,
+        "totalRunCount": 238,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0046893,
+        "perCpuUsage": 0.0007815500000000001
+    },
+    {
+        "node": "minikube",
+        "progid": 3595,
+        "type": "SchedCLS",
+        "currentRuntime": 41794,
+        "currentRunCount": 5,
+        "cumulRuntime": 438055,
+        "cumulRunCount": 55,
+        "totalRuntime": 4064598,
+        "totalRunCount": 595,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0041794,
+        "perCpuUsage": 0.0006965666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3643,
+        "type": "SchedCLS",
+        "currentRuntime": 39541,
+        "currentRunCount": 3,
+        "cumulRuntime": 505193,
+        "cumulRunCount": 53,
+        "totalRuntime": 4351274,
+        "totalRunCount": 478,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0039541,
+        "perCpuUsage": 0.0006590166666666668
+    },
+    {
+        "node": "minikube",
+        "progid": 3719,
+        "type": "Kprobe",
+        "name": "ig_fa_pick_e",
+        "processes": [
+            {
+                "pid": 2241871,
+                "comm": "gadgettracerman"
+            }
+        ],
+        "currentRuntime": 33711,
+        "currentRunCount": 39,
+        "cumulRuntime": 338023,
+        "cumulRunCount": 365,
+        "totalRuntime": 2195945,
+        "totalRunCount": 2267,
+        "mapMemory": 20480,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0033711,
+        "perCpuUsage": 0.00056185
+    },
+    {
+        "node": "minikube",
+        "progid": 3545,
+        "type": "SchedCLS",
+        "currentRuntime": 33089,
+        "currentRunCount": 14,
+        "cumulRuntime": 259781,
+        "cumulRunCount": 118,
+        "totalRuntime": 1432942,
+        "totalRunCount": 691,
+        "mapMemory": 20754432,
+        "mapCount": 3,
+        "totalCpuUsage": 0.0033089,
+        "perCpuUsage": 0.0005514833333333333
+    },
+    {
+        "node": "minikube",
+        "progid": 3635,
+        "type": "SchedCLS",
+        "currentRuntime": 28752,
+        "currentRunCount": 4,
+        "cumulRuntime": 387583,
+        "cumulRunCount": 60,
+        "totalRuntime": 4414590,
+        "totalRunCount": 685,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0028752,
+        "perCpuUsage": 0.0004792
+    },
+    {
+        "node": "minikube",
+        "progid": 3521,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 27329,
+        "currentRunCount": 8,
+        "cumulRuntime": 222136,
+        "cumulRunCount": 77,
+        "totalRuntime": 1794295,
+        "totalRunCount": 637,
+        "mapMemory": 28213248,
+        "mapCount": 7,
+        "totalCpuUsage": 0.0027329,
+        "perCpuUsage": 0.00045548333333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3651,
+        "type": "SchedCLS",
+        "currentRuntime": 26668,
+        "currentRunCount": 4,
+        "cumulRuntime": 466015,
+        "cumulRunCount": 114,
+        "totalRuntime": 4699333,
+        "totalRunCount": 1130,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0026668,
+        "perCpuUsage": 0.00044446666666666666
+    },
+    {
+        "node": "minikube",
+        "progid": 3522,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 18072,
+        "currentRunCount": 12,
+        "cumulRuntime": 148526,
+        "cumulRunCount": 92,
+        "totalRuntime": 1062513,
+        "totalRunCount": 797,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0018072,
+        "perCpuUsage": 0.0003012
+    },
+    {
+        "node": "minikube",
+        "progid": 3728,
+        "type": "SchedCLS",
+        "currentRuntime": 15858,
+        "currentRunCount": 2,
+        "cumulRuntime": 172069,
+        "cumulRunCount": 18,
+        "totalRuntime": 582127,
+        "totalRunCount": 56,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0015858,
+        "perCpuUsage": 0.00026430000000000003
+    },
+    {
+        "node": "minikube",
+        "progid": 3557,
+        "type": "SchedCLS",
+        "currentRuntime": 12003,
+        "currentRunCount": 11,
+        "cumulRuntime": 90058,
+        "cumulRunCount": 93,
+        "totalRuntime": 501737,
+        "totalRunCount": 558,
+        "mapMemory": 48758784,
+        "mapCount": 9,
+        "totalCpuUsage": 0.0012003,
+        "perCpuUsage": 0.00020005
+    },
+    {
+        "node": "minikube",
+        "progid": 3699,
+        "type": "SchedCLS",
+        "currentRuntime": 8876,
+        "currentRunCount": 1,
+        "cumulRuntime": 97314,
+        "cumulRunCount": 9,
+        "totalRuntime": 392787,
+        "totalRunCount": 32,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0008876,
+        "perCpuUsage": 0.00014793333333333334
+    },
+    {
+        "node": "minikube",
+        "progid": 3518,
+        "type": "CGroupSockAddr",
+        "currentRuntime": 6442,
+        "currentRunCount": 4,
+        "cumulRuntime": 74368,
+        "cumulRunCount": 44,
+        "totalRuntime": 563743,
+        "totalRunCount": 349,
+        "mapMemory": 24018944,
+        "mapCount": 4,
+        "totalCpuUsage": 0.0006442,
+        "perCpuUsage": 0.00010736666666666667
+    },
+    {
+        "node": "minikube",
+        "progid": 3683,
+        "type": "SchedCLS",
+        "currentRuntime": 6282,
+        "currentRunCount": 2,
+        "cumulRuntime": 141850,
+        "cumulRunCount": 24,
+        "totalRuntime": 1064303,
+        "totalRunCount": 192,
+        "mapMemory": 274432,
+        "mapCount": 2,
+        "totalCpuUsage": 0.0006282,
+        "perCpuUsage": 0.0001047
+    },
+    {
+        "node": "minikube",
+        "progid": 3,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 4,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 5,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 6,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 7,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 8,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 13,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 14,
+        "type": "CGroupSKB"
+    },
+    {
+        "node": "minikube",
+        "progid": 3068,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3069,
+        "type": "CGroupSKB",
+        "processes": [
+            {
+                "pid": 615938,
+                "comm": "systemd"
+            }
+        ]
+    },
+    {
+        "node": "minikube",
+        "progid": 3507,
+        "type": "SchedCLS",
+        "mapMemory": 274432,
+        "mapCount": 2
+    },
+    {
+        "node": "minikube",
+        "progid": 3512,
+        "type": "SchedCLS",
+        "mapMemory": 23560192,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3513,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3514,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3515,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3516,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3517,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 2875,
+        "totalRunCount": 13,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3519,
+        "type": "CGroupSockAddr",
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3520,
+        "type": "CGroupSockAddr",
+        "totalRuntime": 76921,
+        "totalRunCount": 94,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3523,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 20022,
+        "cumulRunCount": 52,
+        "totalRuntime": 256538,
+        "totalRunCount": 508,
+        "mapMemory": 28213248,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3524,
+        "type": "CGroupSockAddr",
+        "cumulRuntime": 31939,
+        "cumulRunCount": 19,
+        "totalRuntime": 158368,
+        "totalRunCount": 105,
+        "mapMemory": 24018944,
+        "mapCount": 4
+    },
+    {
+        "node": "minikube",
+        "progid": 3525,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3532,
+        "type": "SchedCLS",
+        "mapMemory": 4096,
+        "mapCount": 1
+    },
+    {
+        "node": "minikube",
+        "progid": 3533,
+        "type": "SchedCLS",
+        "mapMemory": 46305280,
+        "mapCount": 10
+    },
+    {
+        "node": "minikube",
+        "progid": 3534,
+        "type": "SchedCLS",
+        "mapMemory": 38920192,
+        "mapCount": 9
+    },
+    {
+        "node": "minikube",
+        "progid": 3535,
+        "type": "SchedCLS",
+        "mapMemory": 28622848,
+        "mapCount": 7
+    },
+    {
+        "node": "minikube",
+        "progid": 3536,
+        "type": "SchedCLS",
+        "mapMemory": 29974528,
+        "mapCount": 14
+    },
+    {
+        "node": "minikube",
+        "progid": 3537,
+        "type": "SchedCLS",
+        "mapMemory": 270336,
+        "mapCount": 1
+    }
+]

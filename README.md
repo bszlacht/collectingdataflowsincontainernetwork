@@ -25,7 +25,9 @@ To start minikube with cilium and online botique app:
 
 ```
 minikube start --network-plugin=cni --memory=4096
-minikube start --cni=cilium --memory=4096
+minikube ssh -- sudo mount bpffs -t bpf /sys/fs/bpf
+kubectl apply -f https://raw.githubusercontent.com/cilium/cilium/v1.9/install/kubernetes/quick-install.yaml
+kubectl apply -f https://raw.githubusercontent.com/cilium/cilium/v1.9/install/kubernetes/quick-hubble-install.yaml
 kubectl apply -f socks/release/kubernetes/manifests.yaml
 ```
 
@@ -39,13 +41,16 @@ and open localhost:12000 in your browser
 You will be presented with smth similar to
 ![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/289f7477-3105-4f23-b66b-bb0d95874ab3)
 
-
 To open online boituqe by itself:
+
 ```
 kubectl port-forward -n default deployment/frontend-v1 8080:8080
 ```
+
 and open localhost:8080. You will see smth like that
 ![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/f66e7094-c9e9-4781-a4bd-7121595a2035)
 
+# Inspektor gadget
 
-
+In order to collect metrics from cluster such as GPU and memory usage, one can use command `kubectl-gadget top ebpf -o json > epbf_top.json`.
+See example output in file `epbf_top.json` in this repo.

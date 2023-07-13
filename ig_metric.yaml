@@ -3,8 +3,8 @@ metrics_name: guide
 metrics:
   - name: cpu_usage
     type: gauge
-    category: top
-    gadget: ebpf
+    category: profile
+    gadget: cpu
     labels:
       - namespace
       - pod
