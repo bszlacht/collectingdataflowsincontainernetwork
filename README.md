@@ -26,9 +26,10 @@ To start minikube with cilium and online botique app:
 ```
 minikube start --network-plugin=cni --memory=4096
 minikube ssh -- sudo mount bpffs -t bpf /sys/fs/bpf
+kubectl apply -f socks/release/kubernetes/manifests.yaml
+
 kubectl apply -f https://raw.githubusercontent.com/cilium/cilium/v1.9/install/kubernetes/quick-install.yaml
 kubectl apply -f https://raw.githubusercontent.com/cilium/cilium/v1.9/install/kubernetes/quick-hubble-install.yaml
-kubectl apply -f socks/release/kubernetes/manifests.yaml
 ```
 
 To open Hubble UI add redirect 12000 -> 80
