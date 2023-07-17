@@ -1,0 +1,66 @@
+{
+    "flow": {
+        "time": "2023-07-17T23:09:57.247795703Z",
+        "verdict": "FORWARDED",
+        "ethernet": {
+            "source": "06:ad:ee:b4:a9:f2",
+            "destination": "32:21:67:b1:f9:74"
+        },
+        "IP": {
+            "source": "10.0.0.241",
+            "destination": "10.0.0.125",
+            "ipVersion": "IPv4"
+        },
+        "l4": {
+            "TCP": {
+                "source_port": 47458,
+                "destination_port": 6379,
+                "flags": {
+                    "SYN": true
+                }
+            }
+        },
+        "source": {
+            "identity": 1,
+            "labels": [
+                "reserved:host",
+                "reserved:kube-apiserver"
+            ]
+        },
+        "destination": {
+            "ID": 1670,
+            "identity": 42459,
+            "namespace": "default",
+            "labels": [
+                "k8s:app=redis-cart",
+                "k8s:io.cilium.k8s.namespace.labels.kubernetes.io/metadata.name=default",
+                "k8s:io.cilium.k8s.policy.cluster=default",
+                "k8s:io.cilium.k8s.policy.serviceaccount=default",
+                "k8s:io.kubernetes.pod.namespace=default",
+                "k8s:version=v1"
+            ],
+            "pod_name": "redis-cart-v1-65766f7d6f-k5f2z",
+            "workloads": [
+                {
+                    "name": "redis-cart-v1",
+                    "kind": "Deployment"
+                }
+            ]
+        },
+        "Type": "L3_L4",
+        "node_name": "minikube",
+        "event_type": {
+            "type": 4
+        },
+        "traffic_direction": "INGRESS",
+        "trace_observation_point": "TO_ENDPOINT",
+        "is_reply": false,
+        "interface": {
+            "index": 47,
+            "name": "lxcde3302a273c7"
+        },
+        "Summary": "TCP Flags: SYN"
+    },
+    "node_name": "minikube",
+    "time": "2023-07-17T23:09:57.247795703Z"
+}

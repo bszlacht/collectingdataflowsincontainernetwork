@@ -11,9 +11,30 @@ The general idea behind this project is to collect data about flow of TCP inside
 # Hubble UI
 
 Exporting flows to file:
-> hubble observe -o jsonpb --last 1000 > flows.json
 
-Analyse flows from file with Hubble UI:
+1. Install and download Hubble Cli
+
+> export HUBBLE_VERSION=$(curl -s <https://raw.githubusercontent.com/cilium/hubble/master/stable.txt>)
+> curl -LO "<https://github.com/cilium/hubble/releases/download/$HUBBLE_VERSION/hubble-linux-amd64.tar.gz>"
+> curl -LO "<https://github.com/cilium/hubble/releases/download/$HUBBLE_VERSION/hubble-linux-amd64.tar.gz.sha256sum>"
+> sha256sum --check hubble-linux-amd64.tar.gz.sha256sum
+> tar zxf hubble-linux-amd64.tar.gz
+> sudo mv hubble /usr/local/bin
+
+2. Run Hubble Realy
+
+> kubectl port-forward -n kube-system svc/hubble-relay --address 0.0.0.0 --address :: 4245:80
+
+3. Export environment variable pointing to hubble relay port
+
+> export HUBBLE_SERVER=localhost:4245
+
+4. Collect flows by running
+
+> hubble observe -o json --all > FLOWS_DESTINATION.json
+
+4. Analyse flows from file with Hubble UI:
+
 > cat flows.json | hubble observe
 
 Example flows view
@@ -50,8 +71,3 @@ kubectl port-forward -n default deployment/frontend-v1 8080:8080
 
 and open localhost:8080. You will see smth like that
 ![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/f66e7094-c9e9-4781-a4bd-7121595a2035)
-
-# Inspektor gadget
-
-In order to collect metrics from cluster such as GPU and memory usage, one can use command `kubectl-gadget top ebpf -o json > epbf_top.json`.
-See example output in file `epbf_top.json` in this repo.
