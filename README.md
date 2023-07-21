@@ -1,73 +1,124 @@
-![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/47fca728-2b43-498a-998c-e25109fada4d)# Collecting data flow information from container network
+# Prerequisites
 
-The general idea behind this project is to collect data about flow of TCP inside kubernetes container. We will use [Hubble](https://github.com/cilium/hubble) to monitor packets. Our idea for the moment is:
+1. Install Hubble CLI
 
-1. Create a VM with Ubuntu installed.
-2. Install mikro k8s from snap.
-3. Create a simple k8s cluster.
-4. Deploy app into the cluster based on the [Cilium Star Wars Demo](https://github.com/cilium/star-wars-demo).
-5. Use Hubble CLI to measure flow in [cluster](https://docs.cilium.io/en/stable/gettingstarted/hubble_cli/#hubble-cli).
+```bash
+export HUBBLE_VERSION=$(curl -s https://raw.githubusercontent.com/cilium/hubble/master/stable.txt)
+curl -LO "https://github.com/cilium/hubble/releases/download/$HUBBLE_VERSION/hubble-linux-amd64.tar.gz"
+curl -LO "https://github.com/cilium/hubble/releases/download/$HUBBLE_VERSION/hubble-linux-amd64.tar.gz.sha256sum"
+sha256sum --check hubble-linux-amd64.tar.gz.sha256sum
+tar zxf hubble-linux-amd64.tar.gz
+sudo mv hubble /usr/local/bin
+```
 
-# Hubble UI
+2. Install inspektor gadget plugin for kubectl
 
-Exporting flows to file:
+```bash
+kubectl krew install gadget
+```
 
-1. Install and download Hubble Cli
+# Configuring cluster
 
-> export HUBBLE_VERSION=$(curl -s <https://raw.githubusercontent.com/cilium/hubble/master/stable.txt>)
-> curl -LO "<https://github.com/cilium/hubble/releases/download/$HUBBLE_VERSION/hubble-linux-amd64.tar.gz>"
-> curl -LO "<https://github.com/cilium/hubble/releases/download/$HUBBLE_VERSION/hubble-linux-amd64.tar.gz.sha256sum>"
-> sha256sum --check hubble-linux-amd64.tar.gz.sha256sum
-> tar zxf hubble-linux-amd64.tar.gz
-> sudo mv hubble /usr/local/bin
-
-2. Run Hubble Realy
-
-> kubectl port-forward -n kube-system svc/hubble-relay --address 0.0.0.0 --address :: 4245:80
-
-3. Export environment variable pointing to hubble relay port
-
-> export HUBBLE_SERVER=localhost:4245
-
-4. Collect flows by running
-
-> hubble observe -o json --all > FLOWS_DESTINATION.json
-
-4. Analyse flows from file with Hubble UI:
-
-> cat flows.json | hubble observe
-
-Example flows view
-![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/fac52482-00a4-434b-bafa-76f96ee6e89d)
-
-# How to run
-
-To start minikube with cilium and online botique app:
+1. Start minikube cluster with below configuration and mount an ebpf filesystem
 
 ```
 minikube start --network-plugin=cni --memory=4096
+minikube start --cni=cilium --memory=4096
 minikube ssh -- sudo mount bpffs -t bpf /sys/fs/bpf
-kubectl apply -f socks/release/kubernetes/manifests.yaml
+```
 
-kubectl apply -f https://raw.githubusercontent.com/cilium/cilium/v1.9/install/kubernetes/quick-install.yaml
+2. Deploy Prometheus for collecting network stats and Grafana for visualising them
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/cilium/cilium/v1.12/examples/kubernetes/addons/prometheus/monitoring-example.yaml
+```
+
+3. Add cilium with configured metrics (see [metrics page](https://docs.cilium.io/en/stable/observability/metrics/#hubble-exported-metrics) for available metrics)
+
+```bash
+helm repo add cilium https://helm.cilium.io/
+helm install cilium cilium/cilium --version 1.12.11 \
+--namespace kube-system \
+--set prometheus.enabled=true \
+--set operator.prometheus.enabled=true \
+--set hubble.enabled=true \
+--set hubble.metrics.enabled="{dns,drop,tcp,flow,port-distribution,icmp,http}"
+```
+
+4. Deply Hubble in order to observe networks flows
+
+```bash
 kubectl apply -f https://raw.githubusercontent.com/cilium/cilium/v1.9/install/kubernetes/quick-hubble-install.yaml
 ```
 
-To open Hubble UI add redirect 12000 -> 80
+5. Deploy inspektor daget
 
+```bash
+kubectl gadget deploy
 ```
+
+6. Deploy an application
+
+```bash
+kubectl apply -f online-boutique/release/kubernetes/manifests.yaml
+```
+
+# Observability
+
+1. Observe network statistcs
+
+```bash
+kubectl -n cilium-monitoring port-forward service/grafana --address 0.0.0.0 --address :: 3000:3000
+```
+
+![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/f66e7094-c9e9-4781-a4bd-7121595a2035)
+
+2. Observe network flows
+
+```bash
 kubectl port-forward -n kube-system svc/hubble-ui --address 0.0.0.0 --address :: 12000:80
 ```
 
-and open localhost:12000 in your browser
-You will be presented with smth similar to
-![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/289f7477-3105-4f23-b66b-bb0d95874ab3)
+3. Expose network flows for export
 
-To open online boituqe by itself:
-
-```
-kubectl port-forward -n default deployment/frontend-v1 8080:8080
+```bash
+kubectl port-forward -n kube-system svc/hubble-relay --address 0.0.0.0 --address :: 4245:80
 ```
 
-and open localhost:8080. You will see smth like that
 ![image](https://github.com/bszlacht/collectingdataflowsincontainernetwork/assets/21079319/f66e7094-c9e9-4781-a4bd-7121595a2035)
+
+4. Export network flows (while still exposing port from previous step)
+
+```bash
+hubble observe -o json --all > flows.json
+```
+
+and later analyze exported flows with cli
+
+```bash
+cat flows.json | hubble observe
+```
+
+# Analyze cluster health
+
+1. [Current CPU usage and performance of eBPF programs](https://github.com/inspektor-gadget/inspektor-gadget/blob/main/docs/gadgets/top/ebpf.md)
+
+```bash
+kubectl gadget top ebpf
+```
+
+2. [Containers generating the most block device input/output](https://github.com/inspektor-gadget/inspektor-gadget/blob/main/docs/gadgets/top/block-io.md)
+
+```bash
+kubectl gadget top ebpf
+```
+
+3. [Processes running in selected containers](https://github.com/inspektor-gadget/inspektor-gadget/blob/main/docs/gadgets/snapshot/process.md)
+
+```bash
+kubectl gadget snapshot process
+```
+
+# Alternatives
+
+An alternative worth looking at is [Pixie](https://work.withpixie.ai/live), which also a tool build on top of eBPF that provides network observability and cluster health monitoring, but in one ecosystem.
